@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div>
+        <form action="/loginUser" method="post" class="w-[500px] space-y-5 mx-auto my-10 p-5 bg-zinc-100 rounded-lg hover:shadow-2xl hover:shadow-blue-300">
+            <input type="email" placeholder="Email" name="email" class="w-full p-5 text-lg font-semibold text-zinc-700 border border-zinc-500 rounded-lg">
+            <input type="password" placeholder="Password" name="password" class="w-full p-5 text-lg font-semibold text-zinc-700 border border-zinc-500 rounded-lg">
+            <input type="submit" value="Login" class="w-full py-3 rounded-lg bg-blue-500 text-lg font-bold text-white">
+            <div class="space-x-5 text-center">
+                <a href="/registerAPI" class="text-blue-600 text-lg hover:underline underline-offset-2 ">Register</a>
+                <a href="" class="text-orange-600 text-lg hover:underline underline-offset-2 ">Forget</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
